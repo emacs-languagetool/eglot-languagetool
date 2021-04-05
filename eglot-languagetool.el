@@ -1,14 +1,14 @@
-;;; eglot-languagetool.el ---   -*- lexical-binding: t; -*-
+;;; eglot-languagetool.el --- Eglot Clients for LanguageTool  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021  Shen, Jen-Chieh
 ;; Created date 2021-04-05 23:38:07
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
-;; Description:
-;; Keyword:
-;; Version: 0.0.1
-;; Package-Requires: ((emacs "24.3"))
-;; URL: https://github.com/jcs090218/eglot-languagetool
+;; Description: Eglot Clients for LanguageTool.
+;; Keyword: eglot languagetool checker
+;; Version: 0.1.0
+;; Package-Requires: ((emacs "24.3") (eglot "1.4"))
+;; URL: https://github.com/emacs-languagetool/eglot-languagetool
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -27,12 +27,20 @@
 
 ;;; Commentary:
 ;;
-;;
+;; Eglot Clients for LanguageTool.
 ;;
 
 ;;; Code:
 
+(require 'eglot)
 
+(defgroup eglot-languagetool nil
+  "Settings for the LanguageTool Language Server.
+
+https://github.com/languagetool-language-server/languagetool-languageserver"
+  :prefix "eglot-languagetool-"
+  :group 'eglot
+  :link '(url-link :tag "Github" "https://github.com/emacs-languagetool/eglot-languagetool"))
 
 (provide 'eglot-languagetool)
 ;;; eglot-languagetool.el ends here
