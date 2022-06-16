@@ -2,6 +2,9 @@
          "0.1.0"
          "Eglot Clients for LanguageTool")
 
+(website-url "https://github.com/emacs-languagetool/eglot-languagetool")
+(keywords "eglot" "languagetool" "checker")
+
 (package-file "eglot-languagetool.el")
 
 (source "gnu")
