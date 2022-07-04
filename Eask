@@ -3,7 +3,7 @@
          "Eglot Clients for LanguageTool")
 
 (website-url "https://github.com/emacs-languagetool/eglot-languagetool")
-(keywords "eglot" "languagetool" "checker")
+(keywords "convenience" "eglot" "languagetool" "checker")
 
 (package-file "eglot-languagetool.el")
 
